@@ -1,6 +1,7 @@
 * { 
     border: 1px solid black; 
     margin: 10px;
+    font-family: Verdana;
 }
 
 header {
@@ -17,5 +18,13 @@ main {
 }
 
 .project {
-    list-style-type: none;
+    background-color: #837466;
+    margin: 0;
+    min-width: 40%;
+    padding: 10px; 
+}
+
+#project-list {
+    display: flex;
+    flex-wrap: wrap;
 }
